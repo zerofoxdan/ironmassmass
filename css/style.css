@@ -1,0 +1,318 @@
+body{
+	font-family: Segoe UI;
+	font-size: 16px;
+	color: #333;
+}
+header{
+	background-color: #252525;
+	padding: 20px 0;
+}
+
+#sec-slides{
+	background-image: url(../img/slide-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+	height: 600px;
+}
+
+#sec-slides h2,
+#sec-mood h2{
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+.barra{
+	background-color: #f54f15;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+}
+
+
+#sec-slides h1,
+#sec-mood h1{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+
+.btn-naranja{
+	background-color: #f54f15;
+	color: #fff;
+	border-radius: 0;
+	border:0;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	font-weight: 600;
+	margin-top: 40px;
+}
+.btn-naranja:hover{
+	background-color:#252525;
+	color: #fff;
+}
+
+.barra-izquierda{
+	display: inline-block;
+}
+
+.espaciado{
+	padding: 100px 0;
+}
+
+.titulo{
+	font-size: 50px;
+	font-weight: 700;
+}
+
+#sec-amanda h3{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+p{
+	color: #777;
+}
+
+
+.firma-amanda{
+	color: #f54f15;
+	font-size:25px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+#sec-classes{
+	background-color: #f3f3f3;
+}
+
+#sec-classes .titulo{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#sec-classes h3{
+	color: #f54f15;
+}
+
+
+#sec-mood{
+	background-image: url(../img/bg-fitness.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+}
+
+
+#sec-coaches{
+	background-image: url(../img/bg-coaches.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#sec-coaches .barra{
+	background-color: #fff;
+}
+
+#sec-coaches .titulo{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.cuadro-blanco{
+	background-color: #fff;
+	padding: 30px;
+	text-align: center;
+}
+
+.cuadro-blanco h3{
+	color: #333;
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+.cuadro-blanco h4{
+	color: #f54f15;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 0;
+}
+
+
+#sec-classes .padre,
+#sec-classes .info-clase{
+	position: relative;
+}
+
+
+#sec-classes .hijo{
+	position: absolute;
+	width: 100%;
+	bottom:0;
+	background-color: rgba(245,79,21,0.80);
+	padding: 15px 35px;
+	
+}
+#sec-classes .hijo h3{
+	color: #fff;
+	font-weight: 600;
+}
+
+#sec-classes .info-texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	background-color: rgba(245,79,21,0.80);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+}
+
+#sec-classes .info-texto h3{
+	color: #fff;
+	font-weight: 600;
+}
+#sec-classes .info-clase:hover .info-texto{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+
+#sec-classes .overlay{
+	position: relative;
+}
+
+#sec-classes .bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.80);
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#sec-classes .titulo-overlay{
+	position: absolute;
+	width: 100%;
+	background-color: rgba(245,79,21,1);
+	bottom: 0;
+	padding: 15px 35px;
+	z-index: 2;
+}
+#sec-classes .titulo-overlay h3{
+	color: #fff;
+	font-weight: 600;
+}
+
+
+footer{
+	background-color: #252525;
+	color:#777;
+	padding: 10% 0;
+	text-align: center;
+}
+footer h3{
+	color: #fff;
+	font-weight: 700;
+	font-size: 26px;
+}
+footer h3 span{
+	color: #f54f15;
+}
+
+
+
+.redes{
+	margin: 45px 0;
+}
+.redes li{
+	display: inline-block;
+}
+
+.redes a{
+	width:60px;
+	height: 60px;
+	line-height: 60px;
+	border:2px solid #fff;
+	display: block;
+	border-radius: 15px 0 15px 0;
+	color: #fff;
+	text-decoration: none;
+	transition: all ease 0.3s;
+}
+.redes a:hover{
+	background-color: #fff;
+	color: #252525;
+	transition: all ease 0.3s;
+}
+
+footer p a{
+	color: #f54f15;
+	font-weight: 400;
+}
+footer p a:hover{
+	color: #f54f15;
+}
+
+#sec-breadcrumb{
+	background-color: #f3f3f3;
+}
+
+#sec-breadcrumb .breadcrumb-item{
+	background-color:transparent;
+	border-radius: 0;
+}
+
+#sec-content .titulo{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+#sec-content h4{
+	font-weight: 700px;
+	text-align: center;
+}
+
+.letra-naranja{
+	color: #f54f15;
+}
+
+#sec-content .font-weight-bold{
+	color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
